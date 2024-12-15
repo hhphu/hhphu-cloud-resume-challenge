@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aa3fdd7f.css",
+    "main.js": "/static/js/main.153dfe80.js",
+    "static/media/beefYellowFriedRiceResize.JPG": "/static/media/beefYellowFriedRiceResize.ec964ba2e6e6209ad468.JPG",
+    "static/media/shrimpSaladsResize.JPG": "/static/media/shrimpSaladsResize.8991458b7c6d53676d52.JPG",
+    "static/media/eggRollsResize.JPG": "/static/media/eggRollsResize.7dc3846cd870c4e8593a.JPG",
+    "static/media/porkBaguettesResize.JPG": "/static/media/porkBaguettesResize.0ab3f230c2865b16756b.JPG",
+    "static/media/houseSpecialVermicilliesResize.JPG": "/static/media/houseSpecialVermicilliesResize.d886e499fc3dda945d9e.JPG",
+    "static/media/Pho.png": "/static/media/Pho.82db837689646e59c572.png",
+    "static/media/Appertizer.png": "/static/media/Appertizer.abcbeed7c1758c7ef380.png",
+    "static/media/Side.png": "/static/media/Side.8ff5a9f6ecd2a51a21b4.png",
+    "static/media/Vermicelli.png": "/static/media/Vermicelli.c2541dba96d90a180b03.png",
+    "static/media/chickenCurryRiceResize.JPG": "/static/media/chickenCurryRiceResize.ee8f7bbc22894907f1f0.JPG",
+    "static/media/salmonRiceResize.JPG": "/static/media/salmonRiceResize.c208721aa5dc359a6743.JPG",
+    "static/media/Beverages.png": "/static/media/Beverages.37ef02c4c4465ab7f1f3.png",
+    "index.html": "/index.html",
+    "main.aa3fdd7f.css.map": "/static/css/main.aa3fdd7f.css.map",
+    "main.153dfe80.js.map": "/static/js/main.153dfe80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa3fdd7f.css",
+    "static/js/main.153dfe80.js"
+  ]
+}
