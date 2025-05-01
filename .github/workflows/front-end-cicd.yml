@@ -17,13 +17,15 @@ jobs:
       uses: actions/checkout@v4
       with: 
         respository: hhphu/mini-portfolio
-        token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        token: ${{ secrets.MINI_PORTFOLIO_ACCESS }}
         path: mini-portfolio
 
     - name: Install dependencies
+      working-directory: mini-portfolio
       run: npm install
 
     - name: Build Website
+      working-directory: mini-portfolio
       run: npm run build
 
     - name: Set AWS credentials
