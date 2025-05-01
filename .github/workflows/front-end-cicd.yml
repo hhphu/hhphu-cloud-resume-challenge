@@ -9,13 +9,16 @@ jobs:
   build: 
     runs-on: ubuntu-latest
 
-    defaults: 
-      run:
-        working-directory: mini-portfolio
-
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
+
+    - name: checkout mini-portfolio repo
+      uses: actions/checkout@v4
+      with: 
+        respository: hhphu/mini-portfolio
+        token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        path: mini-portfolio
 
     - name: Install dependencies
       run: npm install
