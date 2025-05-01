@@ -16,7 +16,7 @@ jobs:
     - name: checkout mini-portfolio repo
       uses: actions/checkout@v4
       with: 
-        respository: hhphu/mini-portfolio
+        repository: hhphu/mini-portfolio
         token: ${{ secrets.MINI_PORTFOLIO_ACCESS }}
         path: mini-portfolio
 
