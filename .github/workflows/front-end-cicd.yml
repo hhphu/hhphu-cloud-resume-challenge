@@ -36,4 +36,5 @@ jobs:
         aws-region: 'us-west-2'
         
     - name: Copy to S3
+      working-directory: mini-portfolio
       run: aws s3 sync ./build/. s3://hhphu.com
